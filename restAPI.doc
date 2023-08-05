@@ -1,0 +1,21 @@
+Add Transaction
+----------------
+
+URL:- /transaction
+METHOD: POST
+PAYLOAD: {
+    "fromAddress":"manojSBI", // required Field
+    "toAddress":"jashodhaICICI", // required Field
+    "amount": 15000 // required Field
+}
+
+Get Balance
+------------
+URL:- /balance/:Address
+METHOD: GET
+
+
+Get Balance
+------------
+URL:- /allTransaction/:Address
+METHOD: GET
